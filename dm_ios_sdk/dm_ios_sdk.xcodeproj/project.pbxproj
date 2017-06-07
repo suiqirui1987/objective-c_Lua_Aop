@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9661177E1EE000BB000F6B1F /* DMLuaBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9661177D1EE000BB000F6B1F /* DMLuaBridge.m */; };
+		966117831EE00AE2000F6B1F /* DMLuaFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 966117821EE00AE2000F6B1F /* DMLuaFun.m */; };
+		966117861EE00EE9000F6B1F /* DMLuaObjectReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 966117851EE00EE9000F6B1F /* DMLuaObjectReference.m */; };
+		96DAAC131EE272340085D018 /* DMLuaClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAAC121EE272340085D018 /* DMLuaClass.m */; };
+		96DAAC381EE55F670085D018 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAAC371EE55F670085D018 /* Aspects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		966117441EDFF52F000F6B1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		966117461EDFF52F000F6B1F /* libdm_ios_sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdm_ios_sdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9661177C1EE000BB000F6B1F /* DMLuaBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLuaBridge.h; sourceTree = "<group>"; };
+		9661177D1EE000BB000F6B1F /* DMLuaBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLuaBridge.m; sourceTree = "<group>"; };
+		966117801EE00439000F6B1F /* dmcore.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dmcore.lua; sourceTree = "<group>"; };
+		966117811EE00AE2000F6B1F /* DMLuaFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLuaFun.h; sourceTree = "<group>"; };
+		966117821EE00AE2000F6B1F /* DMLuaFun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLuaFun.m; sourceTree = "<group>"; };
+		966117841EE00EE9000F6B1F /* DMLuaObjectReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLuaObjectReference.h; sourceTree = "<group>"; };
+		966117851EE00EE9000F6B1F /* DMLuaObjectReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLuaObjectReference.m; sourceTree = "<group>"; };
+		966117871EE00F77000F6B1F /* DMLuaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLuaCore.h; sourceTree = "<group>"; };
+		96DAAC111EE272340085D018 /* DMLuaClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLuaClass.h; sourceTree = "<group>"; };
+		96DAAC121EE272340085D018 /* DMLuaClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLuaClass.m; sourceTree = "<group>"; };
+		96DAAC361EE55F670085D018 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		96DAAC371EE55F670085D018 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966117431EDFF52F000F6B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9661173D1EDFF52F000F6B1F = {
+			isa = PBXGroup;
+			children = (
+				96DAAC351EE55F5E0085D018 /* aspect */,
+				9661177F1EE00413000F6B1F /* lua */,
+				9661177B1EDFF63A000F6B1F /* dm_ios_sdk */,
+				966117471EDFF52F000F6B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966117471EDFF52F000F6B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966117461EDFF52F000F6B1F /* libdm_ios_sdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9661177B1EDFF63A000F6B1F /* dm_ios_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9661177C1EE000BB000F6B1F /* DMLuaBridge.h */,
+				9661177D1EE000BB000F6B1F /* DMLuaBridge.m */,
+				966117811EE00AE2000F6B1F /* DMLuaFun.h */,
+				966117821EE00AE2000F6B1F /* DMLuaFun.m */,
+				966117841EE00EE9000F6B1F /* DMLuaObjectReference.h */,
+				966117851EE00EE9000F6B1F /* DMLuaObjectReference.m */,
+				966117871EE00F77000F6B1F /* DMLuaCore.h */,
+				96DAAC111EE272340085D018 /* DMLuaClass.h */,
+				96DAAC121EE272340085D018 /* DMLuaClass.m */,
+			);
+			name = dm_ios_sdk;
+			sourceTree = "<group>";
+		};
+		9661177F1EE00413000F6B1F /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				966117801EE00439000F6B1F /* dmcore.lua */,
+			);
+			name = lua;
+			sourceTree = "<group>";
+		};
+		96DAAC351EE55F5E0085D018 /* aspect */ = {
+			isa = PBXGroup;
+			children = (
+				96DAAC361EE55F670085D018 /* Aspects.h */,
+				96DAAC371EE55F670085D018 /* Aspects.m */,
+			);
+			name = aspect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966117451EDFF52F000F6B1F /* dm_ios_sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9661174F1EDFF530000F6B1F /* Build configuration list for PBXNativeTarget "dm_ios_sdk" */;
+			buildPhases = (
+				966117421EDFF52F000F6B1F /* Sources */,
+				966117431EDFF52F000F6B1F /* Frameworks */,
+				966117441EDFF52F000F6B1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dm_ios_sdk;
+			productName = dm_ios_sdk;
+			productReference = 966117461EDFF52F000F6B1F /* libdm_ios_sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9661173E1EDFF52F000F6B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = detu;
+				TargetAttributes = {
+					966117451EDFF52F000F6B1F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 966117411EDFF52F000F6B1F /* Build configuration list for PBXProject "dm_ios_sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9661173D1EDFF52F000F6B1F;
+			productRefGroup = 966117471EDFF52F000F6B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966117451EDFF52F000F6B1F /* dm_ios_sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966117421EDFF52F000F6B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DAAC381EE55F670085D018 /* Aspects.m in Sources */,
+				96DAAC131EE272340085D018 /* DMLuaClass.m in Sources */,
+				9661177E1EE000BB000F6B1F /* DMLuaBridge.m in Sources */,
+				966117831EE00AE2000F6B1F /* DMLuaFun.m in Sources */,
+				966117861EE00EE9000F6B1F /* DMLuaObjectReference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9661174D1EDFF530000F6B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9661174E1EDFF530000F6B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966117501EDFF530000F6B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "../../../LuaJIT-2.1.0-beta3/build/ios/build/include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		966117511EDFF530000F6B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "../../../LuaJIT-2.1.0-beta3/build/ios/build/include";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966117411EDFF52F000F6B1F /* Build configuration list for PBXProject "dm_ios_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9661174D1EDFF530000F6B1F /* Debug */,
+				9661174E1EDFF530000F6B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9661174F1EDFF530000F6B1F /* Build configuration list for PBXNativeTarget "dm_ios_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966117501EDFF530000F6B1F /* Debug */,
+				966117511EDFF530000F6B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9661173E1EDFF52F000F6B1F /* Project object */;
+}
